@@ -6,6 +6,7 @@ const BookItem = ({ titulo, autor, descripcion, url_pdf, imageUrl }) => {
       <Card className="card-list">
         <Card.Img
           height={220}
+          className="card-img"
           variant="top"
           alt="Portada de libro"
           src={
@@ -18,7 +19,7 @@ const BookItem = ({ titulo, autor, descripcion, url_pdf, imageUrl }) => {
           <Card.Title>{titulo}</Card.Title>
           <Card.Subtitle>{autor}</Card.Subtitle>
           <Card.Text>{descripcion}</Card.Text>
-          <Card.Link href={url_pdf} className="card-a">
+          <Card.Link href={url_pdf} className="card-a" target="_blank">
             Enlace
           </Card.Link>
         </Card.Body>

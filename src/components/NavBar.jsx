@@ -4,7 +4,7 @@ export const NavBar = () => {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <Link className="navbar-brand" href="#">
+          <Link className="navbar-brand" href="#" to="/">
             Biblioteca Virtual UNR
           </Link>
           <button
@@ -37,13 +37,16 @@ export const NavBar = () => {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <NavLink className="dropdown-item" to="/medicina">
-                      Libro1
+                    <NavLink className="dropdown-item" to="/medicina/libros">
+                      Libros
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="/medicina">
-                      Libro2
+                    <NavLink
+                      className="dropdown-item"
+                      to="/medicina/bibliografia"
+                    >
+                      Bibliografia
                     </NavLink>
                   </li>
                 </ul>

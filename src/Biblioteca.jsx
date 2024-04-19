@@ -11,7 +11,7 @@ export const Biblioteca = () => {
       <NavBar></NavBar>
       <Routes>
         <Route path="/" element={<Inicio />} />
-        <Route path="/medicina" element={<Medicina />} />
+        <Route path="/medicina/libros" element={<Medicina />} />
         <Route path="/enfermeria" element={<Enfermeria />} />
         <Route path="/fonoaudiologia" element={<Fonoaudiologia />} />
         <Route path="/*" element={<Navigate to="/" />} />

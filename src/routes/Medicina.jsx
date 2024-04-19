@@ -7,7 +7,7 @@ export const Medicina = () => {
     <>
       <h2 className="title">LIBROS DE MEDICINA</h2>
       <hr />
-      <Booksbase books={librosMedicina.libros}></Booksbase>
+      <Booksbase books={librosMedicina.medicina}></Booksbase>
       <Footer></Footer>
     </>
   );
