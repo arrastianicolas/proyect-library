@@ -1,5 +1,5 @@
 body {
-  background-color: #0e3a47;
+  background-color: #282866;
   color: white;
 }
 .container-fluid {
@@ -39,11 +39,11 @@ body {
   padding: 15px;
   background-color: #333;
   display: flex;
-  justify-content: center;
   align-items: center;
   color: #9e9e9e;
   font-size: 0.8rem;
   line-height: 200%;
+  justify-content: space-between;
 }
 .container-end-main > p {
   font-size: 12px;
@@ -52,8 +52,15 @@ body {
   padding: 0.3rem;
   font-size: 0.8rem;
   line-height: 200%;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto; 
+  align-items: center; 
 }
-
+.container-end-main img {
+  width: 150px;
+  height: 50px;
+}
 .title {
   text-align: center;
   margin-top: 20px;
@@ -74,6 +81,8 @@ body {
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
+  text-decoration: none;
+
 }
 .card-a:hover {
   transform: scale(1.05);

@@ -1,199 +1,181 @@
 export const booksMedicina = {
+  //1
   Anatomia: [
     {
       id: 1,
       titleBook: "Latarjet - Ruiz Liard Anatomia Humana ta Edicion T1",
-      autor: "Autor 1",
-      imageURL:
-        "https://contentv2.tap-commerce.com/cover/large/9789500695848_1.jpg?id_com=1158",
-      Tamaño: "77.7MB",
+      imageURL: "https://contentv2.tap-commerce.com/cover/large/9789500695848_1.jpg?id_com=1158",
+      tamaño: "77.7MB",
+      url_pdf: "https://drive.google.com/file/d/1YsbhAAsHQPUVGNUUbYYHrGdAUMVEUA0v/view?usp=sharing",
     },
     {
       id: 2,
-      titleBook: "Libro 2 de Anatomía",
-      autor: "Autor 2",
-      imageURL: "URL de la imagen 2",
+      titleBook: "Latarjet - Ruiz Liard Anatomia Humana 5a Edicion T2",
+      imageURL: "https://0.academia-photos.com/attachment_thumbnails/64308711/mini_magick20220704-13015-e86j32.png?1656918989",
+      tamaño: "84.3MB",
+      url_pdf: "https://drive.google.com/file/d/1YxEIK440imu-n5B0oW-JUpDl_2lTTPMh/view?usp=drive_link"
     },
     {
       id: 3,
-      titleBook: "Libro 3 de Anatomía",
-      autor: "Autor 3",
-      imageURL: "URL de la imagen 3",
+      titleBook: "ROUVIERE Anatomia 11va Ed T1",
+      imageURL: "https://cdn-v1.udocz-assets.com/uploads/book/cover/52524/anatomia_humana_tomo_1_cabeza_y_cuello_11va_edicion_henri_rouvire.jpg",
+      tamaño: "37.9 MB",
+      url_pdf: "https://drive.google.com/file/d/18ZUIZ0YXD5WqHNCftecT1yIdZ-KEznZG/view?usp=drive_link"
     },
     {
       id: 4,
-      titleBook: "Libro 4 de Anatomía",
-      autor: "Autor 4",
-      imageURL: "URL de la imagen 4",
+      titleBook: "ROUVIERE Anatomia 11va Ed T2",
+      imageURL: "https://cdn-v1.udocz-assets.com/uploads/book/cover/70026/rouviere_anatommia_11va_ed_t2.jpg",
+      tamaño: "42 MB",
+      url_pdf: "https://drive.google.com/file/d/18Q_WP05GPUzOubjxR09HwE2qzRLbpYrM/view?usp=drive_link"
     },
     {
       id: 5,
-      titleBook: "Libro 5 de Anatomía",
-      autor: "Autor 5",
-      imageURL: "URL de la imagen 5",
+      titleBook: "ROUVIERE Anatomia 11va Ed T3",
+      imageURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqvm9xZd16Oi7XiK4oWaELQjRobOcB197lW9pcTdTVBQ&s",
+      tamaño: "43 MB",
+      url_pdf: "https://drive.google.com/file/d/18LewSeV2xYt8wrd5zt796ij0nyI1ScTD/view?usp=drive_link"
     },
     {
       id: 6,
-      titleBook: "Libro 6 de Anatomía",
-      autor: "Autor 6",
-      imageURL: "URL de la imagen 6",
+      titleBook: "ROUVIERE Anatomia 11va Ed T4",
+      imageURL: "https://cdn-v1.udocz-assets.com/uploads/book/cover/70029/rouviere_anatommia_11va_ed_t4.jpg",
+      tamaño: "34 MB",
+      url_pdf: "https://drive.google.com/file/d/18PWZzOJpgDD4B5NYPGv3cPx2ubuQuP0i/view?usp=drive_link"
     },
   ],
-  Estetica: [{}],
+  //2
   Farmaco: [
     {
       id: 1,
-      titleBook: "Libro de Farmacología",
-      autor: "Autor de Farmacología",
-      imageURL: "URL de la imagen de Farmacología",
+      titleBook: "Velazquez Farmacologia Basica y Clinica 19a Edicion",
+      imageURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl7cazCbIVcQR7V_5eid6lRJXt2TLed97VLegrVvB0Bw&s",
+      tamaño: "385 MB",
+      url_pdf: "https://drive.google.com/file/d/1iR8nRRN9IjU-rnIsbLkc78ZF2vrE-RoW/view?usp=drive_link"
     },
   ],
+  //3
   Fisiologia: [
     {
       id: 1,
-      titleBook: "Libro 1 de Fisiología",
-      autor: "Autor 1 de Fisiología",
-      imageURL: "URL de la imagen 1 de Fisiología",
+      titleBook: "Ganong Fisiología Médica 26 ed",
+      imageURL: "https://0.academia-photos.com/attachment_thumbnails/104740420/mini_magick20230803-1-l8bi9s.png?1691096849",
+      tamaño: "58 MB",
+      url_pdf: "https://drive.google.com/file/d/1Z1TdQXIYQoiMsDiwM7aaf3vnGh2KS5K_/view?usp=drive_link"
     },
     {
       id: 2,
-      titleBook: "Libro 2 de Fisiología",
-      autor: "Autor 2 de Fisiología",
-      imageURL: "URL de la imagen 2 de Fisiología",
+      titleBook: "Guyton_y_Hall_Tratado_de_fisiologia_medica_12a",
+      imageURL: "https://ae01.alicdn.com/kf/HTB1nhXjLXXXXXc1XFXXq6xXFXXXl/guyton-y-hall-tratado-de-fisiologia-medica-12a-edicion.jpg",
+      tamaño: "126.5 MB",
+      url_pdf: "https://drive.google.com/file/d/18Fe9CJ2tV34QpLmYoGRmZub4eX1Tvpwq/view?usp=drive_link"
     },
     {
       id: 3,
-      titleBook: "Libro 3 de Fisiología",
-      autor: "Autor 3 de Fisiología",
-      imageURL: "URL de la imagen 3 de Fisiología",
+      titleBook: "Libro. G. Aranalde - Fisiología Renal - 1º (2015)",
+      imageURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHbLdE2NXOccWv54UY4AaIb2hbPf3byooGKtN2EM6-zA&s",
+      tamaño: "8.1 MB",
+      url_pdf: "https://drive.google.com/file/d/19eLTQqP4gPmf6wu2mza6-R2DDEbo_oeC/view?usp=drive_link"
     },
   ],
+  //4
   Ginecologiayobstetricia: [
     {
       id: 1,
-      titleBook: "Libro 1 de Ginecología y Obstetricia",
-      autor: "Autor 1 de Ginecología y Obstetricia",
-      imageURL: "URL de la imagen 1 de Ginecología y Obstetricia",
+      titleBook: "Actualizacion_consenso_RCIU_FASGO_2017",
+      imageURL: "https://imgv2-1-f.scribdassets.com/img/document/387841178/original/17e82a6aed/1710210344?v=1",
+      tamaño: "766 KB",
+      url_pdf: "https://drive.google.com/file/d/1HM5aIYdqjNXrGg5wowaszLbVJZ3KXvX9/view?usp=drive_link"
     },
     {
       id: 2,
-      titleBook: "Libro 2 de Ginecología y Obstetricia",
-      autor: "Autor 2 de Ginecología y Obstetricia",
-      imageURL: "URL de la imagen 2 de Ginecología y Obstetricia",
+      titleBook: "Ginecologia Fundamentos para la practica clinica Testa",
+      imageURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfSTHS6A4i0RMizU9ASP-YD4zJoBrAgNyVlsds0-brhA&s",
+      tamaño: "269.1 MB",
+      url_pdf: "https://drive.google.com/file/d/1tBNa8DFait0BJbCYescOYUvm5rtAejOB/view?usp=drive_link"
     },
     {
       id: 3,
-      titleBook: "Libro 3 de Ginecología y Obstetricia",
-      autor: "Autor 3 de Ginecología y Obstetricia",
-      imageURL: "URL de la imagen 3 de Ginecología y Obstetricia",
+      titleBook: "Ultrasonidos en Obstetricia, Reproduccion y Ginecologia",
+      imageURL: "https://contentv2.tap-commerce.com/cover/large/9788491103455_1.jpg?id_com=1158",
+      tamaño: "116 MB",
+      url_pdf: "https://drive.google.com/file/d/18_AzYMcMSZoC-lHA0D2EPcQBUNX5Oool/view?usp=drive_link"
     },
     {
       id: 4,
-      titleBook: "Libro 4 de Ginecología y Obstetricia",
-      autor: "Autor 4 de Ginecología y Obstetricia",
-      imageURL: "URL de la imagen 4 de Ginecología y Obstetricia",
+      titleBook: "Williams Obstetricia 25a Edicion",
+      imageURL: "https://cdn-v1.udocz-assets.com/uploads/book/cover/240454/1_williams_obstetricia_25a_edicion-027516f7d47b8c997c191603e34dd561.jpg",
+      tamaño: "45.4 MB",
+      url_pdf: "https://drive.google.com/file/d/18Jh_-KzqdE8qEQ9M4xnUxOXilErXZuWJ/view?usp=drive_link"
     },
   ],
+  //5
   Histologia: [
     {
       id: 1,
-      titleBook: "Libro de Histología",
-      autor: "Autor de Histología",
-      imageURL: "URL de la imagen de Histología",
+      titleBook: "HistologÍa - Ross 7ª",
+      imageURL: "https://cdn-v1.udocz-assets.com/uploads/book/cover/62106/ross_histologia_7_edicion_texto_y_atlas.jpg",
+      tamaño: "159.2 MB",
+      url_pdf: "https://drive.google.com/file/d/1RZteoSOTmb9jvM8xEjWpLB3sEuwhCRpA/view?usp=drive_link"
     },
   ],
-  Identidad: [
-    {
-      id: 1,
-      titleBook: "Libro de Identidad",
-      autor: "Autor de Identidad",
-      imageURL: "URL de la imagen de Identidad",
-    },
-  ],
+  //6
   Inmunologia: [
+    // PREGUNTAR SI TIENEN PDF DE ESTO
     {
       id: 1,
       titleBook: "Libro de Inmunología",
-      autor: "Autor de Inmunología",
       imageURL: "URL de la imagen de Inmunología",
+      tamaño: " MB",
+      url_pdf: ""
     },
   ],
+  //7
   MedicinaInterna: [
     {
       id: 1,
-      titleBook: "Libro 1 de Medicina Interna",
-      autor: "Autor 1 de Medicina Interna",
-      imageURL: "URL de la imagen 1 de Medicina Interna",
+      titleBook: "Farreras Rozman Medicina Interna 19a Edicion",
+      imageURL: "https://www.libreriacienciaymedicina.com/3247/farreras-rozman-medicina-interna-19%C2%AA-edici%C3%B3n.jpg",
+      tamaño: "60 MB",
+      url_pdf: "https://drive.google.com/file/d/1NYMyeyuNb6SyntX26gUXda2txWbpJb6x/view?usp=drive_link"
     },
     {
       id: 2,
-      titleBook: "Libro 2 de Medicina Interna",
-      autor: "Autor 2 de Medicina Interna",
-      imageURL: "URL de la imagen 2 de Medicina Interna",
+      titleBook: "Harrison Principios de Medicina Interna 19a Ed. Vol. 1",
+      imageURL: "https://imgv2-2-f.scribdassets.com/img/document/524486010/original/89482a0dc7/1708762973?v=1",
+      tamaño: "13 MB",
+      url_pdf: "https://drive.google.com/file/d/1iS25qupOf1MhND8EywIgzItb7CknedI2/view?usp=drive_link"
     },
     {
       id: 3,
-      titleBook: "Libro 3 de Medicina Interna",
-      autor: "Autor 3 de Medicina Interna",
-      imageURL: "URL de la imagen 3 de Medicina Interna",
+      titleBook: "Harrison Principios de Medicina Interna 19a Ed. Vol. 2",
+      imageURL: "https://4.bp.blogspot.com/-faWTf5unSMw/Wn8wxuyO5DI/AAAAAAAAXmI/gGVw6tvOdKYFTa8j6Jqa1ORKTcPv68dJQCLcBGAs/s1600/Harrison%2BManual%2Bde%2BMedicina%2B19a%2BEdicion.jpg",
+      tamaño: "35 MB",
+      url_pdf: "https://drive.google.com/file/d/1p6FtRc9R43o1UopWejXoEVw-KYCICnr6/view?usp=drive_link"
     },
     {
       id: 4,
-      titleBook: "Libro 4 de Medicina Interna",
-      autor: "Autor 4 de Medicina Interna",
-      imageURL: "URL de la imagen 4 de Medicina Interna",
+      titleBook: "La clinica y el laboratorio Balcells 23a Edicion",
+      imageURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBIBtq8wZZOsfF40sgPAJJdCphioC2b56tmDtoHQti4A&s",
+      tamaño: "18 MB",
+      url_pdf: "https://drive.google.com/file/d/10fYfGC0MWwqxhaSscvuk4W5eDSSWzfsu/view?usp=drive_link"
     },
   ],
+  //8
   Pediatria: [
     {
       id: 1,
-      titleBook: "Libro 1 de Pediatría",
-      autor: "Autor 1 de Pediatría",
-      imageURL: "URL de la imagen 1 de Pediatría",
+      titleBook: "Nelson Tratado de Pediatria 21a Edicion",
+      imageURL: "https://mediterraneo.cl/2914-large_default/nelson-tratado-de-pediatria-21-ed.jpg",
+      tamaño: "709 MB",
+      url_pdf: "https://drive.google.com/file/d/1YHmrTt5qOmyVyeeo1xCnluX4j8PyZLRF/view?usp=drive_link"
     },
     {
       id: 2,
-      titleBook: "Libro 2 de Pediatría",
-      autor: "Autor 2 de Pediatría",
-      imageURL: "URL de la imagen 2 de Pediatría",
-    },
-  ],
-  Otros: [
-    {
-      id: 1,
-      titleBook: "Libro 1",
-      autor: "Autor 1",
-      imageURL: "URL de la imagen 1",
-    },
-    {
-      id: 2,
-      titleBook: "Libro 2",
-      autor: "Autor 2",
-      imageURL: "URL de la imagen 2",
-    },
-    {
-      id: 3,
-      titleBook: "Libro 3",
-      autor: "Autor 3",
-      imageURL: "URL de la imagen 3",
-    },
-    {
-      id: 4,
-      titleBook: "Libro 4",
-      autor: "Autor 4",
-      imageURL: "URL de la imagen 4",
-    },
-    {
-      id: 5,
-      titleBook: "Libro 5",
-      autor: "Autor 5",
-      imageURL: "URL de la imagen 5",
-    },
-    {
-      id: 6,
-      titleBook: "Libro 6",
-      autor: "Autor 6",
-      imageURL: "URL de la imagen 6",
+      titleBook: "Neonatologia Practica 4a edicion",
+      imageURL: "https://www.hospitalitaliano.org.ar/multimedia/archivos/noticias_archivos/57/imagenes/57_nuestros-libros-5.jpg",
+      tamaño: "214 MB",
+      url_pdf: "https://drive.google.com/file/d/18EdAXkvE1xPH4KDkV9ToVnh1ztae1Lgk/view?usp=drive_link"
     },
   ],
 };
