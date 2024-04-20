@@ -1,19 +1,39 @@
 import { NavBar } from "./components/NavBar";
 import { Routes, Route, Navigate } from "react-router-dom";
-import { Fonoaudiologia } from "./routes/Fonoaudiologia";
-import { Enfermeria } from "./routes/Enfermeria";
 import { Inicio } from "./routes/Inicio";
-import { Medicina } from "./routes/Medicina";
 
+import MedicinaInterna from "./routes/Medicina/MedicinaInterna";
+import Anatomia from "./routes/Medicina/Anatomia";
+import Farmaco from "./routes/Medicina/Farmaco";
+import Fisiologia from "./routes/Medicina/Fisiologia";
+import GinecologiaYObstetricia from "./routes/Medicina/GinecologiaYObstetricia";
+import Histologia from "./routes/Medicina/Histologia";
+import Inmunologia from "./routes/Medicina/Inmunologia";
+import Pediatria from "./routes/Medicina/Pediatria";
+import Otros from "./routes/Medicina/Otros";
 export const Biblioteca = () => {
   return (
     <>
       <NavBar></NavBar>
       <Routes>
         <Route path="/" element={<Inicio />} />
-        <Route path="/medicina/libros" element={<Medicina />} />
-        <Route path="/enfermeria/libros" element={<Enfermeria />} />
-        <Route path="/fonoaudiologia" element={<Fonoaudiologia />} />
+        <Route path="/medicina/Anatomia" element={<Anatomia />} />
+        <Route path="/medicina/Farmaco" element={<Farmaco />} />
+        <Route path="/medicina/Fisiologia" element={<Fisiologia />} />
+        <Route
+          path="/medicina/Ginecologia y Obstetricia"
+          element={<GinecologiaYObstetricia />}
+        />
+        <Route path="/medicina/Histologia" element={<Histologia />} />
+        <Route path="/medicina/Inmunologia" element={<Inmunologia />} />
+        <Route
+          path="/medicina/Medicina Interna"
+          element={<MedicinaInterna />}
+        />
+        <Route path="/medicina/Pediatria" element={<Pediatria />} />
+        <Route path="/medicina/Otros" element={<Otros />} />
+        {/* <Route path="/enfermeria/libros" element={<Enfermeria />} />
+        <Route path="/fonoaudiologia" element={<Fonoaudiologia />} /> */}
         <Route path="/*" element={<Navigate to="/" />} />
       </Routes>
     </>

@@ -1,0 +1,20 @@
+import { Footer } from "../../components/Footer";
+import { booksMedicina } from "../../hooks/booksMedicina";
+import Booksbase from "../../components/bookmain/Booksbase";
+import Search from "../../components/Search";
+import { useState } from "react";
+const Anatomia = () => {
+  const [search, setSearch] = useState("");
+
+  return (
+    <>
+      <h2 className="title">LIBROS DE ANATOMIA</h2>
+      <Search book={booksMedicina.Anatomia} setSearch={setSearch}></Search>
+      <hr />
+      <Booksbase books={booksMedicina.Anatomia} search={search}></Booksbase>
+      <Footer></Footer>
+    </>
+  );
+};
+
+export default Anatomia;

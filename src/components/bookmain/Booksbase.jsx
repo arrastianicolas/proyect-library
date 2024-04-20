@@ -1,7 +1,12 @@
 import BookItem from "../bookItem/BookItem";
 
-const Booksbase = ({ books }) => {
-  const booksMapped = books.map((book) => (
+const Booksbase = ({ books, search }) => {
+  const filteredBooks = search
+    ? books.filter((item) =>
+        item.titleBook.toLowerCase().includes(search.toLowerCase())
+      )
+    : books;
+  const booksMapped = filteredBooks.map((book) => (
     <BookItem
       key={book.id}
       imageURL={book.imageURL}

@@ -1,4 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
+import { categoryMedicina } from "../hooks/categoryMedicina";
 export const NavBar = () => {
   return (
     <>
@@ -36,10 +37,19 @@ export const NavBar = () => {
                   Medicina
                 </a>
                 <ul className="dropdown-menu">
-                  <li>
-                    <NavLink className="dropdown-item" to="/medicina/libros">
-                      Libros
-                    </NavLink>
+                  {categoryMedicina.map((category, index) => (
+                    <li key={index}>
+                      <NavLink
+                        className="dropdown-item"
+                        to={`/medicina/${category}`}
+                      >
+                        {category}
+                      </NavLink>
+                    </li>
+                  ))}
+                </ul>
+                {/* <li>
+                    
                   </li>
                   <li>
                     <NavLink
@@ -48,8 +58,7 @@ export const NavBar = () => {
                     >
                       Bibliografia
                     </NavLink>
-                  </li>
-                </ul>
+                  </li> */}
               </li>
               <li className="nav-item dropdown">
                 <a
