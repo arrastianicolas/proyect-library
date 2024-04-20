@@ -1,12 +1,12 @@
 import Booksbase from "../components/bookmain/Booksbase";
 import { Footer } from "../components/Footer";
-import { librosMedicina } from "../hooks/librosmedicina";
+import { booksMedicina } from "../hooks/booksMedicina";
 export const Enfermeria = () => {
   return (
     <div>
       <h2 className="title">LIBROS DE ENFERMERIA</h2>
       <hr />
-      <Booksbase books={librosMedicina.enfermeria}></Booksbase>
+      <Booksbase books={booksMedicina.Anatomia}></Booksbase>
       <Footer></Footer>
     </div>
   );

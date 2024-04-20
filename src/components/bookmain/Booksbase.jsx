@@ -4,10 +4,9 @@ const Booksbase = ({ books }) => {
   const booksMapped = books.map((book) => (
     <BookItem
       key={book.id}
-      imageUrl={book.imageUrl}
-      titulo={book.titulo}
-      authr={book.autor}
-      descripcion={book.descripcion}
+      imageURL={book.imageURL}
+      titleBook={book.titleBook}
+      tamaño={book.tamaño}
       url_pdf={book.url_pdf}
     />
   ));

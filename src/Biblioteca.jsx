@@ -12,7 +12,7 @@ export const Biblioteca = () => {
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/medicina/libros" element={<Medicina />} />
-        <Route path="/enfermeria" element={<Enfermeria />} />
+        <Route path="/enfermeria/libros" element={<Enfermeria />} />
         <Route path="/fonoaudiologia" element={<Fonoaudiologia />} />
         <Route path="/*" element={<Navigate to="/" />} />
       </Routes>

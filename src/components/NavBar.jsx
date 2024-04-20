@@ -63,7 +63,7 @@ export const NavBar = () => {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <NavLink className="dropdown-item" to="/enfermeria">
+                    <NavLink className="dropdown-item" to="/enfermeria/libros">
                       Libros
                     </NavLink>
                   </li>
