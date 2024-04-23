@@ -1,5 +1,7 @@
 export const categoryMedicina = [
   "Anatomia",
+  "Cuaderno del Alumno",
+  "Embriologia",
   "Farmaco",
   "Fisiologia",
   "Ginecologia y Obstetricia",

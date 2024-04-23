@@ -1,4 +1,5 @@
 import { Card } from "react-bootstrap";
+// Importa el ícono de descarga
 
 const BookItem = ({ titleBook, tamaño, url_pdf, imageURL }) => {
   return (
@@ -12,7 +13,7 @@ const BookItem = ({ titleBook, tamaño, url_pdf, imageURL }) => {
           src={
             imageURL !== ""
               ? imageURL
-              : "https://th.bing.com/th/id/OIP.XnBjus1SHsYwZeuRtsC5NgHaLZ?rs=1&pid=ImgDetMain"
+              : "https://www.laguiago.com/wp-content/uploads/2020/03/lecturas-recomendadas.jpg"
           }
         ></Card.Img>
         <Card.Body>

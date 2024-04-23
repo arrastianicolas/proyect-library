@@ -3,15 +3,24 @@ export const booksMedicina = {
   Anatomia: [
     {
       id: 1,
+      titleBook: "Atlas de Anatomia Humana 6a Edicion",
+      imageURL:
+        "https://http2.mlstatic.com/D_NQ_NP_738423-MLC31030753065_062019-O.webp",
+      tamaño: "279.5MB",
+      url_pdf:
+        "https://drive.google.com/file/d/1h5lsvulzKLD9ALV4kyXNmOb6tAFCJzZ-/view?usp=drive_link",
+    },
+    {
+      id: 2,
       titleBook: "Latarjet - Ruiz Liard Anatomia Humana ta Edicion T1",
       imageURL:
         "https://contentv2.tap-commerce.com/cover/large/9789500695848_1.jpg?id_com=1158",
       tamaño: "77.7MB",
       url_pdf:
-        "https://drive.google.com/file/d/1YsbhAAsHQPUVGNUUbYYHrGdAUMVEUA0v/view?usp=sharing",
+        "https://drive.google.com/file/d/1YsbhAAsHQPUVGNUUbYYHrGdAUMVEUA0v/view?usp=drive_link",
     },
     {
-      id: 2,
+      id: 3,
       titleBook: "Latarjet - Ruiz Liard Anatomia Humana 5a Edicion T2",
       imageURL:
         "https://0.academia-photos.com/attachment_thumbnails/64308711/mini_magick20220704-13015-e86j32.png?1656918989",
@@ -20,7 +29,7 @@ export const booksMedicina = {
         "https://drive.google.com/file/d/1YxEIK440imu-n5B0oW-JUpDl_2lTTPMh/view?usp=drive_link",
     },
     {
-      id: 3,
+      id: 4,
       titleBook: "ROUVIERE Anatomia 11va Ed T1",
       imageURL:
         "https://cdn-v1.udocz-assets.com/uploads/book/cover/52524/anatomia_humana_tomo_1_cabeza_y_cuello_11va_edicion_henri_rouvire.jpg",
@@ -29,7 +38,7 @@ export const booksMedicina = {
         "https://drive.google.com/file/d/18ZUIZ0YXD5WqHNCftecT1yIdZ-KEznZG/view?usp=drive_link",
     },
     {
-      id: 4,
+      id: 5,
       titleBook: "ROUVIERE Anatomia 11va Ed T2",
       imageURL:
         "https://cdn-v1.udocz-assets.com/uploads/book/cover/70026/rouviere_anatommia_11va_ed_t2.jpg",
@@ -38,7 +47,7 @@ export const booksMedicina = {
         "https://drive.google.com/file/d/18Q_WP05GPUzOubjxR09HwE2qzRLbpYrM/view?usp=drive_link",
     },
     {
-      id: 5,
+      id: 6,
       titleBook: "ROUVIERE Anatomia 11va Ed T3",
       imageURL:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqvm9xZd16Oi7XiK4oWaELQjRobOcB197lW9pcTdTVBQ&s",
@@ -47,7 +56,7 @@ export const booksMedicina = {
         "https://drive.google.com/file/d/18LewSeV2xYt8wrd5zt796ij0nyI1ScTD/view?usp=drive_link",
     },
     {
-      id: 6,
+      id: 7,
       titleBook: "ROUVIERE Anatomia 11va Ed T4",
       imageURL:
         "https://cdn-v1.udocz-assets.com/uploads/book/cover/70029/rouviere_anatommia_11va_ed_t4.jpg",
@@ -57,6 +66,37 @@ export const booksMedicina = {
     },
   ],
   //2
+  CuadernodelAlumno: [
+    {
+      id: 1,
+      titleBook: "Cuaderno del Alumno",
+      imageURL:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmCwwioqiG-0Ob21nW4r1fbzQERF26zENbIlDGaNd2fA&s",
+      tamaño: "8.1 MB",
+      url_pdf:
+        "https://drive.google.com/file/d/1ylDcicn6AOuhMy4YyPGqPZp3GnoZYsVx/view?usp=drive_link",
+    },
+  ],
+  Embriologia: [
+    {
+      id: 1,
+      titleBook: "Embriologia Clinica Arteaga",
+      imageURL:
+        "https://1.bp.blogspot.com/-hsSRg01N1V0/VczSfniLKeI/AAAAAAAAN1A/E8JUWxf-ry0/s1600/Embriologia%2BClinica%2BArteaga.jpg",
+      tamaño: "331.2 MB",
+      url_pdf:
+        "https://drive.google.com/file/d/1Yjr-0Wv_UxKFy_oLxm91uvDSEuV_av4z/view",
+    },
+    {
+      id: 2,
+      titleBook: "Embriologia Humana Netter Atlas",
+      imageURL:
+        "https://imgv2-2-f.scribdassets.com/img/document/355840998/original/2658240b25/1710542026?v=1",
+      tamaño: "311,6 MB",
+      url_pdf:
+        "https://drive.google.com/file/d/1Z1x-wZRxGUUpqCt3nS0bNeQ08jTBvZ6f/view",
+    },
+  ],
   Farmaco: [
     {
       id: 1,
@@ -81,7 +121,7 @@ export const booksMedicina = {
     },
     {
       id: 2,
-      titleBook: "Guyton_y_Hall_Tratado_de_fisiologia_medica_12a",
+      titleBook: "Guyton y Hall Tratado de fisiologia medica 12a",
       imageURL:
         "https://abecedarioliteratura.com.ar/wp-content/uploads/9788480868198.jpg",
       tamaño: "126.5 MB",
@@ -102,7 +142,7 @@ export const booksMedicina = {
   Ginecologiayobstetricia: [
     {
       id: 1,
-      titleBook: "Actualizacion_consenso_RCIU_FASGO_2017",
+      titleBook: "Actualizacion consenso_RCIU_FASGO_2017",
       imageURL:
         "https://imgv2-1-f.scribdassets.com/img/document/387841178/original/17e82a6aed/1710210344?v=1",
       tamaño: "766 KB",
@@ -152,13 +192,6 @@ export const booksMedicina = {
   //6
   Inmunologia: [
     // PREGUNTAR SI TIENEN PDF DE ESTO
-    {
-      id: 1,
-      titleBook: "Libro de Inmunología",
-      imageURL: "URL de la imagen de Inmunología",
-      tamaño: " MB",
-      url_pdf: "",
-    },
   ],
   //7
   MedicinaInterna: [
@@ -223,15 +256,6 @@ export const booksMedicina = {
   Otros: [
     {
       id: 1,
-      titleBook: "Embriologia Clinica Arteaga",
-      imageURL:
-        "https://1.bp.blogspot.com/-hsSRg01N1V0/VczSfniLKeI/AAAAAAAAN1A/E8JUWxf-ry0/s1600/Embriologia%2BClinica%2BArteaga.jpg",
-      tamaño: "331.2 MB",
-      url_pdf:
-        "https://drive.google.com/file/d/1Yjr-0Wv_UxKFy_oLxm91uvDSEuV_av4z/view",
-    },
-    {
-      id: 2,
       titleBook: "Microbiologia Medica Murray",
       imageURL:
         "https://contentv2.tap-commerce.com/cover/large/9788490224113_1.jpg?id_com=1158",
@@ -239,17 +263,9 @@ export const booksMedicina = {
       url_pdf:
         "https://drive.google.com/file/d/1YxEIK440imu-n5B0oW-JUpDl_2lTTPMh/view?usp=drive_link",
     },
+
     {
-      id: 3,
-      titleBook: "Embriologia Humana Netter Atlas",
-      imageURL:
-        "https://imgv2-2-f.scribdassets.com/img/document/355840998/original/2658240b25/1710542026?v=1",
-      tamaño: "311,6 MB",
-      url_pdf:
-        "https://drive.google.com/file/d/1Z1x-wZRxGUUpqCt3nS0bNeQ08jTBvZ6f/view",
-    },
-    {
-      id: 4,
+      id: 2,
       titleBook: "Patologia Humana Robins 10a Edicion",
       imageURL:
         "https://1.bp.blogspot.com/-e51d9WxQuAY/WWUjxa9pzvI/AAAAAAAAVS0/oFS0kbAtQFgqeuI50C_6Jn3gQEPxDhiQACLcBGAs/s1600/Robbins%2BBasic%2BPathology%2B10e.jpg",
@@ -258,7 +274,7 @@ export const booksMedicina = {
         "https://drive.google.com/file/d/1xSsqkKETELjK9f9w2Otf5Xh94nWj-c3T/view",
     },
     {
-      id: 5,
+      id: 3,
       titleBook: "Tratado de Cirugias 20a Edicion_booksMedicos",
       imageURL:
         "https://2.bp.blogspot.com/-frEZs2L8g0E/WpG6u8aFY0I/AAAAAAAAXtc/-CHi9Fg9HEMbS4Csb2C1yRkxAV3tF6w8QCLcBGAs/s1600/Sabiston.%2BTratado%2Bde%2Bcirugia%2B20a%2BEdicion.jpg",
@@ -267,7 +283,7 @@ export const booksMedicina = {
         "https://drive.google.com/file/d/1KQvnkfdbCYofHiTWKjyu2Z5XJtG2bEUe/view",
     },
     {
-      id: 6,
+      id: 4,
       titleBook: "Medica Argente Alvarez 2a Ed.booksMedicos",
       imageURL:
         "https://3.bp.blogspot.com/-WuKweGJ-il8/WI_Gdm5FvAI/AAAAAAAATtQ/0MaXtJ8Gz289qsX_SmRO0m4W_opCRxs1QCLcB/s1600/Semiologia%2BMedica%2BFisiopatologia%2BSemiotecnia%2By%2BPropedeutica_booksmedicos.org.jpg",

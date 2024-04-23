@@ -1,13 +1,22 @@
 import { Link, NavLink } from "react-router-dom";
+import Logo3 from "../assets/Logo3.png";
 import { categoryMedicina } from "../hooks/categoryMedicina";
+
 export const NavBar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <Link className="navbar-brand" href="#" to="/">
-            Biblioteca Virtual UNR
+            Biblioteca UNR
           </Link>
+          <div style={{ position: "absolute", top: 0, right: "75px" }}>
+            <img
+              src={Logo3}
+              alt="logo"
+              style={{ width: "150px", height: "auto" }}
+            />
+          </div>
           <button
             className="navbar-toggler"
             type="button"

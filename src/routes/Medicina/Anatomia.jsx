@@ -11,7 +11,9 @@ const Anatomia = () => {
       <h2 className="title">LIBROS DE ANATOMIA</h2>
       <Search book={booksMedicina.Anatomia} setSearch={setSearch}></Search>
       <hr />
-      <Booksbase books={booksMedicina.Anatomia} search={search}></Booksbase>
+      <div className="container-books">
+        <Booksbase books={booksMedicina.Anatomia} search={search}></Booksbase>
+      </div>
       <Footer></Footer>
     </>
   );

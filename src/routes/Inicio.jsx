@@ -2,7 +2,7 @@ import { Footer } from "../components/Footer";
 export const Inicio = () => {
   return (
     <>
-      <div className="container-main">
+      <div className="content-main">
         <h2 className="title-main">
           ¡Bienvenidos a la biblioteca virtual de la UNR!
         </h2>

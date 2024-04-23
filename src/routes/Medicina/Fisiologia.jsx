@@ -10,7 +10,9 @@ const Fisiologia = () => {
       <h2 className="title">LIBROS DE FISIOLOGIA</h2>
       <Search book={booksMedicina.Fisiologia} setSearch={setSearch}></Search>
       <hr />
-      <Booksbase books={booksMedicina.Fisiologia} search={search}></Booksbase>
+      <div className="container-books">
+        <Booksbase books={booksMedicina.Fisiologia} search={search}></Booksbase>
+      </div>
       <Footer></Footer>
     </>
   );

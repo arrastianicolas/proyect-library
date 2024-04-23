@@ -4,7 +4,7 @@ const Search = ({ setSearch }) => {
   };
 
   return (
-    <>
+    <div className="content-search">
       <form className="d-flex" role="search">
         <input
           className="form-control me-2"
@@ -14,7 +14,7 @@ const Search = ({ setSearch }) => {
           onChange={changeBook}
         ></input>
       </form>
-    </>
+    </div>
   );
 };
 

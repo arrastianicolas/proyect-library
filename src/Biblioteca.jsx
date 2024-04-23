@@ -11,6 +11,8 @@ import Histologia from "./routes/Medicina/Histologia";
 import Inmunologia from "./routes/Medicina/Inmunologia";
 import Pediatria from "./routes/Medicina/Pediatria";
 import Otros from "./routes/Medicina/Otros";
+import CuadernodelAlumno from "./routes/Medicina/CuadernodelAlumno";
+import Embriologia from "./routes/Medicina/Embriologia";
 export const Biblioteca = () => {
   return (
     <>
@@ -18,6 +20,11 @@ export const Biblioteca = () => {
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/medicina/Anatomia" element={<Anatomia />} />
+        <Route
+          path="/medicina/Cuaderno del Alumno"
+          element={<CuadernodelAlumno />}
+        />
+        <Route path="/medicina/Embriologia" element={<Embriologia />} />
         <Route path="/medicina/Farmaco" element={<Farmaco />} />
         <Route path="/medicina/Fisiologia" element={<Fisiologia />} />
         <Route

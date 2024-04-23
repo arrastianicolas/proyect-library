@@ -7,7 +7,9 @@ const Histologia = () => {
     <>
       <h2 className="title">Histologia</h2>
       <hr />
-      <Booksbase books={booksMedicina.Histologia}></Booksbase>
+      <div className="container-books">
+        <Booksbase books={booksMedicina.Histologia}></Booksbase>
+      </div>
       <Footer></Footer>
     </>
   );

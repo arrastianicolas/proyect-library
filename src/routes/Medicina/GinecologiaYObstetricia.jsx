@@ -13,10 +13,12 @@ const GinecologiaYObstetricia = () => {
         setSearch={setSearch}
       ></Search>
       <hr />
-      <Booksbase
-        books={booksMedicina.Ginecologiayobstetricia}
-        search={search}
-      ></Booksbase>
+      <div className="container-books">
+        <Booksbase
+          books={booksMedicina.Ginecologiayobstetricia}
+          search={search}
+        ></Booksbase>
+      </div>
       <Footer></Footer>
     </>
   );
