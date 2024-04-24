@@ -6,9 +6,9 @@ body {
   background-color: #282866;
   color: rgb(255, 255, 255);
   margin: 0;
-  display: grid;
+  display: flex;
   min-height: 100vh;
-  grid-template-rows: auto 1fr auto;
+  flex-direction: column;
 }
 
 .container-fluid {
@@ -36,14 +36,13 @@ body {
   margin: 25px;
   font-family: sans-serif;
   text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.23);
-  animation: mover-izquiera-derecha 2s forwards;
+  animation: mover-izquiera-derecha 1.5s forwards;
   animation-fill-mode: forwards;
 }
 .container-books > hr {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 @keyframes mover-izquiera-derecha {
   from {
     transform: translateX(-1000px);
@@ -53,33 +52,14 @@ body {
   }
 }
 
-.container-end-main {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding: 1em 0;
-  background-color: #080808;
-  display: flex;
-  align-items: center;
-  color: #9e9e9e;
-  font-size: 0.8rem;
-  line-height: 200%;
-  justify-content: center;
-  margin-top: auto;
-  text-align: center;
-}
-
-.container-end-main > p {
-  font-size: 12px;
-  padding: 0.3rem;
-}
 
 .title {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+/*----CARD----*/
 .card-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -101,6 +81,13 @@ body {
   transform: scale(1.05);
   cursor: pointer;
 }
+
+.container-card{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 hr {
   background-color: rgba(0, 0, 0, 0.1);
   margin: 20px;
@@ -118,3 +105,93 @@ form {
 .not-book {
   text-align: center;
 }
+
+/*----FOOTER----*/
+.container-end-main {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 1em 0;
+  background-color: #1a1a1a;
+  align-items: center;
+  color: #9e9e9e;
+  font-size: 0.8rem;
+  line-height: 200%;
+  justify-content: space-between;
+  margin-top: auto;
+  text-align: center;
+}
+.container-end-main > p {
+  font-size: 12px;
+  padding: 0.3rem;
+}
+
+/*----CONTACT----*/
+.container-contact {
+  flex-direction: column;
+  width: 100%; 
+}
+
+.container-contact svg {
+  width: 50px; 
+  height: auto;
+  margin-right: 10px; 
+}
+.container-contact h2 {
+  margin-top: 0;
+}
+
+.container-contact a {
+  color:#ffffff ;
+}
+
+
+
+
+/*----CARD-CONTACT----*/
+.contact-container {
+  text-align: center;
+  margin-bottom: 20px; /* Espacio entre la tarjeta y el pie de página */
+}
+.contact-card h3 {
+  color: #1a1a1a;
+}
+
+.contact-card {
+  width: 50%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 150px;
+  padding: 10px;
+  margin: 0 auto; /* Centrar horizontalmente */
+  display: flex;
+  flex-direction: column;
+}
+
+.social-links {
+  display: flex;
+  align-items: center; /* Centrar verticalmente */
+  justify-content: center; /* Centrar horizontalmente */
+  margin-top: 10px; /* Ajuste para separar del título */
+  height: 50%; /* Ajusta la altura */
+}
+
+.social-links a {
+  color: #1a1a1a;
+  margin: 0 10px; /* Espacio entre los enlaces */
+  text-decoration: none;
+  transition: transform 0.3s ease; /* Añadimos una transición para suavizar el movimiento */
+
+}
+.social-links a:hover {
+  color:  #2525b7;
+  transform: translateY(-5px); /* Mover hacia arriba 10px cuando se pasa el mouse */
+
+}
+.social-links a svg {
+  font-size: 30px; /* Tamaño deseado para los iconos */
+  margin-right: 5px; /* Espacio entre el icono y el texto */
+}
+
