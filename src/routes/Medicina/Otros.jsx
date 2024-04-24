@@ -2,6 +2,8 @@ import { Footer } from "../../components/Footer";
 import { booksMedicina } from "../../hooks/booksMedicina";
 import Booksbase from "../../components/bookmain/Booksbase";
 import { useState } from "react";
+import { Contact } from "../../components/Ctc";
+
 import Search from "../../components/Search";
 const Otros = () => {
   const [search, setSearch] = useState("");
@@ -13,6 +15,8 @@ const Otros = () => {
       <div className="container-books">
         <Booksbase books={booksMedicina.Otros} search={search}></Booksbase>
       </div>
+      <hr />
+      <Contact></Contact>
       <Footer></Footer>
     </>
   );

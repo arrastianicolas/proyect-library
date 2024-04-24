@@ -3,6 +3,7 @@ import { booksMedicina } from "../../hooks/booksMedicina";
 import Booksbase from "../../components/bookmain/Booksbase";
 import Search from "../../components/Search";
 import { useState } from "react";
+import { Contact } from "../../components/Ctc";
 const Anatomia = () => {
   const [search, setSearch] = useState("");
 
@@ -14,6 +15,9 @@ const Anatomia = () => {
       <div className="container-books">
         <Booksbase books={booksMedicina.Anatomia} search={search}></Booksbase>
       </div>
+      <hr />
+      <Contact></Contact>
+      
       <Footer></Footer>
     </>
   );

@@ -16,7 +16,7 @@ const Booksbase = ({ books, search }) => {
     />
   ));
   return (
-    <div className="d-flex justify-content-center flex-wrap">{booksMapped}</div>
+    <div className="container-card">{booksMapped}</div>
   );
 };
 

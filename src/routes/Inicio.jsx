@@ -11,6 +11,14 @@ export const Inicio = () => {
           En esta web encontraras los diversos libros de las carreras
           correspondientes...
         </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum minima optio fugiat incidunt hic libero iste quia et praesentium alias molestiae, dolor laboriosam numquam! Totam mollitia dolores dicta harum tenetur?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum minima optio fugiat incidunt hic libero iste quia et praesentium alias molestiae, dolor laboriosam numquam! Totam mollitia dolores dicta harum tenetur?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum minima optio fugiat incidunt hic libero iste quia et praesentium alias molestiae, dolor laboriosam numquam! Totam mollitia dolores dicta harum tenetur?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum minima optio fugiat incidunt hic libero iste quia et praesentium alias molestiae, dolor laboriosam numquam! Totam mollitia dolores dicta harum tenetur?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum minima optio fugiat incidunt hic libero iste quia et praesentium alias molestiae, dolor laboriosam numquam! Totam mollitia dolores dicta harum tenetur?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum minima optio fugiat incidunt hic libero iste quia et praesentium alias molestiae, dolor laboriosam numquam! Totam mollitia dolores dicta harum tenetur?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum minima optio fugiat incidunt hic libero iste quia et praesentium alias molestiae, dolor laboriosam numquam! Totam mollitia dolores dicta harum tenetur?</p>
+      
       </div>
       <Footer></Footer>
     </>

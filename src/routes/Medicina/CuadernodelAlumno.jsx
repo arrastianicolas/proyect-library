@@ -2,6 +2,7 @@ import { Footer } from "../../components/Footer";
 import { booksMedicina } from "../../hooks/booksMedicina";
 import Booksbase from "../../components/bookmain/Booksbase";
 import Search from "../../components/Search";
+import { Contact } from "../../components/Ctc";
 import { useState } from "react";
 const CuadernodelAlumno = () => {
   const [search, setSearch] = useState("");
@@ -20,6 +21,9 @@ const CuadernodelAlumno = () => {
           search={search}
         ></Booksbase>
       </div>
+      <hr />
+      <Contact></Contact>
+
       <Footer></Footer>
     </>
   );
