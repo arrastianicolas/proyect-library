@@ -11,7 +11,7 @@ const Inmunologia = () => {
       <h2 className="title">LIBROS DE INMUNOLOGIA</h2>
       <Search book={booksMedicina.Inmunologia} setSearch={setSearch}></Search>
       <hr />
-      {booksMedicina.length > 0 ? (
+      {booksMedicina.Inmunologia.length > 0 ? (
         <div className="container-books">
           <Booksbase
             books={booksMedicina.Inmunologia}
@@ -19,7 +19,9 @@ const Inmunologia = () => {
           ></Booksbase>
         </div>
       ) : (
-        <p className="not-book">No hay libros</p>
+        <div className="content-dontbook">
+          <p className="not-book">No hay libros</p>
+        </div>
       )}
       <hr />
       <Contact></Contact>

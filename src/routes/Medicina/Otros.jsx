@@ -9,7 +9,7 @@ const Otros = () => {
   const [search, setSearch] = useState("");
   return (
     <>
-      <h2 className="title">LIBROS DE INMUNOLOGIA</h2>
+      <h2 className="title">OTROS</h2>
       <Search book={booksMedicina.Otros} setSearch={setSearch}></Search>
       <hr />
       <div className="container-books">

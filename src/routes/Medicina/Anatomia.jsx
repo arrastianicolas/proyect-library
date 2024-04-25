@@ -15,9 +15,9 @@ const Anatomia = () => {
       <div className="container-books">
         <Booksbase books={booksMedicina.Anatomia} search={search}></Booksbase>
       </div>
-      <hr />
+
       <Contact></Contact>
-      
+
       <Footer></Footer>
     </>
   );

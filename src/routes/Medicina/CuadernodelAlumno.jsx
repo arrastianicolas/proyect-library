@@ -21,7 +21,7 @@ const CuadernodelAlumno = () => {
           search={search}
         ></Booksbase>
       </div>
-      <hr />
+
       <Contact></Contact>
 
       <Footer></Footer>

@@ -8,7 +8,7 @@ const MedicinaInterna = () => {
   const [search, setSearch] = useState("");
   return (
     <>
-      <h2 className="title">LIBROS DE FARMACOS</h2>
+      <h2 className="title">LIBROS DE MEDICINA INTERNA</h2>
       <Search
         book={booksMedicina.MedicinaInterna}
         setSearch={setSearch}
