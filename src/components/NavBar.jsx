@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import Logo3 from "../assets/Logo3.png";
+import Logo from "./Logo";
 import { categoryMedicina } from "../hooks/categoryMedicina";
 
 export const NavBar = () => {
@@ -10,12 +10,8 @@ export const NavBar = () => {
           <Link className="navbar-brand" href="#" to="/">
             Biblioteca UNR
           </Link>
-          <div style={{ position: "absolute", top: 0, right: "75px" }}>
-            <img
-              src={Logo3}
-              alt="logo"
-              style={{ width: "150px", height: "auto" }}
-            />
+          <div >
+            <Logo></Logo>
           </div>
           <button
             className="navbar-toggler"
